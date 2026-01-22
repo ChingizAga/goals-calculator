@@ -1,12 +1,12 @@
 import { useState } from "react";
-import chingizImg from "../src/images/chingiz.jpg";
-import danaImg from "../src/images/dana.jpg";
-import arianaImg from "../src/images/ariana.jpg";
+import chingizImg from "../images/chingiz.jpg";
+import danaImg from "../images/dana.jpg";
+import arianaImg from "../images/ariana.jpg";
 
 const familyMember = [
   {
     id: 1,
-    image: { chingizImg },
+    image: chingizImg,
     name: "Chingiz",
     lastName: "Baidavletov",
     goals: [
@@ -17,14 +17,14 @@ const familyMember = [
   },
   {
     id: 2,
-    image: { danaImg },
+    image: danaImg,
     name: "Dana",
     lastName: "Tazhenova",
     goals: [{ id: 1, name: "lv-bag", price: 500, balance: 90 }],
   },
   {
     id: 3,
-    image: { arianaImg },
+    image: arianaImg,
     name: "Ariana",
     lastName: "Chingiz",
     goals: [
