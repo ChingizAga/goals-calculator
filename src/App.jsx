@@ -1,7 +1,7 @@
 import { useState } from "react";
-import chingizImg from "../images/chingiz.jpg";
-import danaImg from "../images/dana.jpg";
-import arianaImg from "../images/ariana.jpg";
+import chingizImg from "./images/chingiz.jpg";
+import danaImg from "./images/dana.jpg";
+import arianaImg from "./images/ariana.jpg";
 
 const familyMember = [
   {
